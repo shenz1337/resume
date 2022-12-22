@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+font-size: 14px;
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+/* padding-left: 25%; */
+/* padding-right: 25%; */
+background-color: azure;
+}
+
+.card.o-sebe {
+    max-width: 66%;
+    display: inline-block;
+}
+
+.o-sebe p {
+    color: blueviolet;
+    font-size: 16px;
+}
+
+.portfoli-img {
+    float: left;
+    margin: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.50);
+    /* max-width: 33%; */
+    display: inline-block;
+}
+
+.hobby {
+    color:indianred;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.card {
+    border: 1px;
+    border-radius: 15px;
+    /* background-color:mistyrose; */
+}
+.portfoli-img img {
+    /* max-width: 150px; */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.soc {
+    background: #c0fbbe;
+    padding: 5px;
+    /* display: inline-block; */
+    /* max-width: 66%; */
+    text-align: center;
+}
+
+
+.soc a {
+    padding: 5px;
+    color: #f900ba;
+    font-family: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.label {
+    padding: 5px;
+    /* display: inline-block; */
+    width: 50%;
+    font-weight: 100;
+    color: #bababa;
+}
+
+.exp {
+background: #ffb6f2;
+padding: 5px;
+}
+.soc a:visited {
+    color: #bababa;
+}
+
+.soc a:active {
+    color:blue;
+}
+
+.soc a:hover {
+text-decoration: underline;
+font-size: 1.2rem;
+}
+
+.btn {
+    padding: 10px 40px;
+    background: aqua;
+    border: none;
+    color: #ffb6f2;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.btn:hover {
+    background: #ffb6f2;
+    color: aqua;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+    list-style: square;
+    margin-left: 15px;
+}
+
+.list li:hover {
+    background: #c0fbbe;
+}
+
+.tables {
+    width: 100%;
+}
+
+.tables tr {
+    text-align: center;
+}
+
+.tables th {
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.tables td {
+    padding-bottom: 10px;
+}
+
+.tables td:nth-child(odd) {
+    background: aqua;
+}
+
+.tables td:hover {
+    background: #c0fbbe;
+}
+
+.labelbtm {
+   /* display: block; */
+   /* font-weight: 100;
+   color: #bababa; */
+}
+
+.unputbtm {
+    background: none;
+    border: none;
+    display: block; 
+    margin-top: 10px;
+    outline: none;
+}
+
+.zona {
+    width: 100%;
+    background: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.new {
+    font-weight: 100;
+    color: #bababa;
+}
+
+.pingbackmailname {
+    display: flex;
+}
+
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .portfoli-img {
+        float: none;
+    }
+
+    .soc {
+        display: inline-block;
+    }
+
+    .pingback {
+        text-align: left;
+    }
+}
